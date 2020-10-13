@@ -1,326 +1,63 @@
-/*!
- * Bootstrap Reboot v4.5.2 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
- */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\0000319}}
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+/*
+Error: Invalid CSS after "$colors": expected selector or at-rule, was ": () !default;"
+        on line 49 of E:/Users/jrubi/Desktop/Curso Front End/Clase 09/blog-barbershop/assets/sass/vendors/bootstrap-4.5.2/scss/_variables.scss
+        from line 10 of E:\Users\jrubi\Desktop\Curso Front End\Clase 09\blog-barbershop\assets\sass\vendors\bootstrap-4.5.2\scss\bootstrap-reboot.scss
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\0000325}}
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+44: $green:   #28a745 !default;
+45: $teal:    #20c997 !default;
+46: $cyan:    #17a2b8 !default;
+47: $brown:   
+48: 
+49: $colors: () !default;
+50: $colors: map-merge(
+51:   (
+52:     "blue":       $blue,
+53:     "indigo":     $indigo,
+54:     "purple":     $purple,
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\0000335}}
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\0000346}}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\0000366}}
-[tabindex="-1"]:focus:not(:focus-visible) {
-  outline: 0 !important; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\0000376}}
-hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  height: 0;
-  overflow: visible; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\0000392}}
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 0.5rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003101}}
-p {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003114}}
-abbr[title],
-abbr[data-original-title] {
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-  cursor: help;
-  border-bottom: 0;
-  text-decoration-skip-ink: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003123}}
-address {
-  margin-bottom: 1rem;
-  font-style: normal;
-  line-height: inherit; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003129}}
-ol,
-ul,
-dl {
-  margin-top: 0;
-  margin-bottom: 1rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003136}}
-ol ol,
-ul ul,
-ol ul,
-ul ol {
-  margin-bottom: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003143}}
-dt {
-  font-weight: 700; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003147}}
-dd {
-  margin-bottom: .5rem;
-  margin-left: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003152}}
-blockquote {
-  margin: 0 0 1rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003156}}
-b,
-strong {
-  font-weight: bolder; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003161}}
-small {
-  font-size: 80%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003170}}
-sub,
-sup {
-  position: relative;
-  font-size: 75%;
-  line-height: 0;
-  vertical-align: baseline; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003178}}
-sub {
-  bottom: -.25em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003179}}
-sup {
-  top: -.5em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003186}}
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/mixins\/_hover\.scss}line{font-family:\0000313}}
-  a:hover {
-    color: #0056b3;
-    text-decoration: underline; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003202}}
-a:not([href]):not([class]) {
-  color: inherit;
-  text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/mixins\/_hover\.scss}line{font-family:\0000313}}
-  a:not([href]):not([class]):hover {
-    color: inherit;
-    text-decoration: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003217}}
-pre,
-code,
-kbd,
-samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003225}}
-pre {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  overflow: auto;
-  -ms-overflow-style: scrollbar; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003242}}
-figure {
-  margin: 0 0 1rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003252}}
-img {
-  vertical-align: middle;
-  border-style: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003257}}
-svg {
-  overflow: hidden;
-  vertical-align: middle; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003269}}
-table {
-  border-collapse: collapse; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003273}}
-caption {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  color: #6c757d;
-  text-align: left;
-  caption-side: bottom; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003281}}
-th {
-  text-align: inherit; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003292}}
-label {
-  display: inline-block;
-  margin-bottom: 0.5rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003301}}
-button {
-  border-radius: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003310}}
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003315}}
-input,
-button,
-select,
-optgroup,
-textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003326}}
-button,
-input {
-  overflow: visible; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003331}}
-button,
-select {
-  text-transform: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003339}}
-[role="button"] {
-  cursor: pointer; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003346}}
-select {
-  word-wrap: normal; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003354}}
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003367}}
-button:not(:disabled),
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled) {
-  cursor: pointer; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003374}}
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  padding: 0;
-  border-style: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003382}}
-input[type="radio"],
-input[type="checkbox"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003389}}
-textarea {
-  overflow: auto;
-  resize: vertical; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003395}}
-fieldset {
-  min-width: 0;
-  padding: 0;
-  margin: 0;
-  border: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003410}}
-legend {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  padding: 0;
-  margin-bottom: .5rem;
-  font-size: 1.5rem;
-  line-height: inherit;
-  color: inherit;
-  white-space: normal; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003422}}
-progress {
-  vertical-align: baseline; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003427}}
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003432}}
-[type="search"] {
-  outline-offset: -2px;
-  -webkit-appearance: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003445}}
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003454}}
-::-webkit-file-upload-button {
-  font: inherit;
-  -webkit-appearance: button; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003463}}
-output {
-  display: inline-block; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003467}}
-summary {
-  display: list-item;
-  cursor: pointer; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003472}}
-template {
-  display: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase\%2009\/blog-barbershop\/assets\/sass\/vendors\/bootstrap-4\.5\.2\/scss\/_reboot\.scss}line{font-family:\00003478}}
-[hidden] {
-  display: none !important; }
-
-/*# sourceMappingURL=bootstrap-reboot.css.map */
+Backtrace:
+E:/Users/jrubi/Desktop/Curso Front End/Clase 09/blog-barbershop/assets/sass/vendors/bootstrap-4.5.2/scss/_variables.scss:49
+E:\Users\jrubi\Desktop\Curso Front End\Clase 09\blog-barbershop\assets\sass\vendors\bootstrap-4.5.2\scss\bootstrap-reboot.scss:10
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$colors\": expected selector or at-rule, was \": () !default;\"\A         on line 49 of E:/Users/jrubi/Desktop/Curso Front End/Clase 09/blog-barbershop/assets/sass/vendors/bootstrap-4.5.2/scss/_variables.scss\A         from line 10 of E:\Users\jrubi\Desktop\Curso Front End\Clase 09\blog-barbershop\assets\sass\vendors\bootstrap-4.5.2\scss\bootstrap-reboot.scss\A \A 44: $green:   #28a745 !default;\A 45: $teal:    #20c997 !default;\A 46: $cyan:    #17a2b8 !default;\A 47: $brown:   \A 48: \A 49: $colors: () !default;\A 50: $colors: map-merge(\A 51:   (\A 52:     \"blue\":       $blue,\A 53:     \"indigo\":     $indigo,\A 54:     \"purple\":     $purple,"; }
